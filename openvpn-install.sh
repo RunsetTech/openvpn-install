@@ -291,10 +291,10 @@ function installQuestions() {
 	done
 	case $PROTOCOL_CHOICE in
 	1)
-		PROTOCOL="udp"
+		PROTOCOL="tcp"
 		;;
 	2)
-		PROTOCOL="tcp"
+		PROTOCOL="udp"
 		;;
 	esac
 	echo ""
